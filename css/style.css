@@ -1,9 +1,32 @@
+/*GENERALI*/
+body{
+  color: white;
+}
 .debug{
   border: 1px solid black;
   background-color: coral;
 }
-
+.nv_card{
+  height: 100px;
+}
+.nv_container{
+  max-width: 70%;
+  margin: 0 auto;
+}
+.nv_black{
+  color: black;
+}
+/*HEADER*/
 header{
   height: 70px;
+  background-color: #2C3E50;
+}
+.acqua{
+  background-color: #1ABC9C;
+}
+.foot-top{
+  background-color: #3A546D;
+}
+.foot-bottom{
   background-color: #2C3E50;
 }
