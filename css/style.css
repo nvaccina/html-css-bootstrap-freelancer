@@ -1,0 +1,9 @@
+.debug{
+  border: 1px solid black;
+  background-color: coral;
+}
+
+header{
+  height: 70px;
+  background-color: #2C3E50;
+}
