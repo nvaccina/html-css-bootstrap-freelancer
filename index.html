@@ -8,6 +8,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
   <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
@@ -15,10 +17,10 @@
 <body>
   <header>
     <div class="container h-100">
-      <div class="row justify-content-between align-items-center h-100">
-        <div class="col-3 debug">Logo</div>
-        <div class="col-1 d-md-none debug">H</div>
-        <div class="col-3 d-none d-md-block debug">Menu Lungo</div>
+      <div class="row align-items-center h-100">
+        <div class="col debug">START BOOTSTRAP</div>
+        <div class="col text-end d-lg-none debug">H</div>
+        <div class="col text-end d-none d-lg-block debug">Menu Lungo</div>
       </div>
 
     </div>
@@ -26,11 +28,22 @@
   </header>
 
   <div class="nv_jumbotron acqua">
-    <div class="container text-center py-5">
-      <div class="nv_card debug">IMMAGINE</div>
-      <h2 class="debug my-2">Start Bootstrap</h2>
-      <div class="debug my-2">riga stella riga</div>
-      <div class="debug">Operatori</div>
+    <div class="container text-center py-4">
+      <div class="row justify-content-center">
+        <div class="image">
+          <img src="img/avatar.svg" alt="Avatar">
+        </div>
+        <h1 class="my-2">START BOOTSTRAP</h1>
+        <div class="d-flex align-items-center justify-content-center my-2">
+          <div class="barra me-2"></div>
+          <i class="fa-solid fa-star"></i>
+          <div class="barra ms-2"></div>
+        </div>
+        <div class="testo">
+          <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+        </div>
+      </div>
+      
     </div>
   </div>
 
@@ -40,17 +53,18 @@
         <h3 class="debug">Portfolio</h3>
         <div class="debug my-2">riga stella riga</div>
 
-        <div class="row">
-          <div class="col-md-6 col-lg-4 debug nv_card"></div>
-          <div class="col-md-6 col-lg-4 debug nv_card"></div>
-          <div class="col-md-6 col-lg-4 debug nv_card"></div>
-          <div class="col-md-6 col-lg-4 debug nv_card"></div>
-          <div class="col-md-6 col-lg-4 debug nv_card"></div>
-          <div class="col-md-6 col-lg-4 debug nv_card"></div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="debug nv_card"></div>
+          <div class="debug nv_card"></div>
+          <div class="debug nv_card"></div>
+          <div class="debug nv_card"></div>
+          <div class="debug nv_card"></div>
+          <div class="debug nv_card"></div>
         </div>
 
       </div>
     </section>
+
     <section class="about acqua">
 
       <div class="nv_container py-5">
@@ -74,10 +88,11 @@
               </p>
             </div>
           </div>
-          <div class="debug">Download</div>  
+          <div class="button debug">Download</div>  
         </div>
       </div>      
     </section>
+
     <section>
       <div class="nv_container w-100 py-5 nv_black">
         
@@ -85,17 +100,39 @@
 
           <h3 class="debug">Contact Me</h3>
           <div class="debug my-2">riga stella riga</div>
-          <div class="row-cols-1 w-100 text-start">
-            <div class="col w-100 debug">Name</div>
-            <div class="col w-100 debug">Email Address</div>
-            <div class="col w-100 debug">Phone Number</div>
-            <div class="col w-100 debug">Message</div>
+
+          <div class="row text-start">
+            <div class="col">
+              <form class="nv-form" action="#">
+
+                <div class="mb-3">                  
+                  <input type="name" class="form-control" id="name" placeholder="Name">
+                </div>
+
+                <div class="mb-3">                  
+                  <input type="email" class="form-control" id="email" placeholder="Email Address">
+                </div>
+
+                <div class="mb-3">                  
+                  <input type="text" class="form-control" id="email" placeholder="Phone Number">
+                </div>
+
+                <div class="mb-3">                  
+                  <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Send</button>
+              </form>
+
+            </div>
+
           </div>
-          <div class="debug text-start mt-2">Send</div>  
+
         </div>
+
       </div>
     </section>
   </main>
+
   <footer>
 
     <div class="foot-top">

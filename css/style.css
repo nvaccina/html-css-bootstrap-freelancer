@@ -10,7 +10,7 @@ body{
   height: 100px;
 }
 .nv_container{
-  max-width: 70%;
+  max-width: 60%;
   margin: 0 auto;
 }
 .nv_black{
@@ -18,12 +18,39 @@ body{
 }
 /*HEADER*/
 header{
-  height: 70px;
+  height: 90px;
   background-color: #2C3E50;
 }
 .acqua{
   background-color: #1ABC9C;
 }
+/*JUMBOTRON*/
+.image{
+  width: 200px;
+}
+.barra{
+  height: 0;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 10%;
+}
+/*MAIN*/
+.nv-form input, .nv-form textarea{
+  padding-left: 0;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #CCCCCC;
+}
+.nv-form input::placeholder, 
+.nv-form textarea::placeholder{
+  color: #2C3E50;  
+  font-weight: 500;
+}
+.nv-form button{
+  background-color: #1ABC9C;
+  border: none;
+}
+/*FOOTER*/
 .foot-top{
   background-color: #3A546D;
 }
