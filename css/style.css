@@ -30,13 +30,30 @@ header{
 }
 .barra{
   height: 0;
-  border: 2px solid white;
   border-radius: 5px;
   width: 10%;
 }
+.bord_white{
+  border: 2px solid white;
+}
+.bord_black{
+  border: 2px solid black;
+}
 /*MAIN*/
+.col.box{
+  
+}
+.col.box img{
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.nv_riga{
+  margin-bottom: 0 !important;
+}
 .nv-form input, .nv-form textarea{
-  padding-left: 0;
+  padding: 0;
+  padding: .5rem 0;
   border-radius: 0;
   border: none;
   border-bottom: 1px solid #CCCCCC;
@@ -54,6 +71,25 @@ header{
 .foot-top{
   background-color: #3A546D;
 }
+.social .nv_icon{
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+}
+.nv_icon a{
+  text-decoration: none;  
+}
+.nv_icon a i{
+  color: white;
+}
+.green_bootstrap{
+  color: #1ABC9C;
+}
 .foot-bottom{
   background-color: #2C3E50;
+}
+.foot-bottom p{
+  margin-bottom: 0;
+  font-size: 12px;
 }
